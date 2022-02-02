@@ -1,6 +1,8 @@
 <html>
   <head>
     <title></title>
+    <!-- CSS only -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -10,85 +12,153 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="about_us_main_content">
-      <div class="container-fluid about_us_content">
-        <h1 class="about_us_heading">About<span> Us</span></h1>
-        <div class="about_us_des">
-          <p>
-            Parmarth is a project that aims to provide employment opportunities
-            for persons with different types of disabilities. Society has had a
-            reflectance towards people with disabilities and has had
-            reservations about them becoming self-sufficient parts of the
-            community.<br /><br />
-            This idea comes from a very personal space for us, as seeing the
-            plight of people with being unable to express themselves in the
-            corporate world is very saddening; there are not a lot of resources
-            for the same.
-          </p>
-        </div>
-      </div>
-      <div class="about_us_images_container">
-        <img src="images/about_us_image_three.png" />
-        <img src="images/about_us_image_two.png" />
-        <img
-          class="about_us_image_overlap"
-          src="images/about_us_image_one.png"
-        />
-      </div>
-      <div class="our_mission_content">
-        <h1 class="about_us_heading">Our<span> Mission</span></h1>
-        <div class="about_us_des">
-          <p style="font-size: 20px">
-            Employment means being committed to participation in an activity
-            with others and an occupational identity. For people with a
-            disability, such aspects are even more important, largely because
-            these individuals have become an increasingly marginalized group in
-            contemporary working life, with its great demands for education,
-            flexibility, and productivity.
-            <br /><br />
-            At Parmarth, we intend to support people with disability by giving
-            them opportunities rather than sympathy. They want to feel that they
-            are needed by others and that what they do is meaningful, in both
-            their own eyes and in the eyes of others. We want to give them this
-            opportunity to show their potential.
-          </p>
-        </div>
-      </div>
-      <div class="how_to_use">
-        <h1 class="about_us_heading">How to<span> Use</span>?</h1>
-        <div class="how_to_use_content">
-          <div>
-            <div><img src="images/how_to_use_one.svg" /></div>
-            <div><h1>Get discovered</h1></div>
-            <div>
-              <p>
-                Become searchable by top companies in your domain. Companies
-                search for candidate CVs directly for open positions.
-              </p>
-            </div>
+    <p class="about_us_heading">Post Your <br /><span> Job Opening</span></p>
+    <div class="company_main_content container-xxl job_open_main_container">
+      <section class="job_open_job_info">
+        <h1 class="job_open_section_title">Job Information</h1>
+        <div class="job_open_section_main_table">
+          <!-- job title -->
+          <div class="job_open_content_type_one">
+            <h2>Job Title</h2>
+            <input
+              type="text"
+              placeholder="Your name"
+              class="job_open_content"
+            />
           </div>
-          <div>
-            <div><img src="images/how_to_use_two.svg" /></div>
-            <div><h1>Get contacted</h1></div>
-            <div>
-              <p>
-                Let companies reach you directly without any hassle. Companies
-                contact candidates & schedule interviews.
-              </p>
-            </div>
+          <!-- job category -->
+          <div class="job_open_content_type_two">
+            <h2>Job Category</h2>
+            <select name="" id="" placeholder="">
+              Example, Product Manager
+              <option>Example, Product Manager</option>
+            </select>
           </div>
-          <div>
-            <div><img src="images/how_to_use_three.svg" /></div>
-            <div><h1>Get hired</h1></div>
-            <div>
-              <p>
-                Get hired effortlessly by letting companies reach you. 70% of
-                companies hire candidates without posting jobs.
-              </p>
-            </div>
+          <!-- job type -->
+          <div class="job_open_content_type_two">
+            <h2>Job Type</h2>
+            <select name="" id="" placeholder="">
+              Example, Product Manager
+              <option>Example, Product Manager</option>
+            </select>
+          </div>
+          <!-- Seniority/Experience Level -->
+          <div class="job_open_content_type_two">
+            <h2>Seniority/Experience Level</h2>
+            <select name="" id="" placeholder="">
+              Example, Product Manager
+              <option>Example, Product Manager</option>
+            </select>
+          </div>
+          <!-- Job Location -->
+          <div class="job_open_content_type_two">
+            <h2>Job Location</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+          <!-- Job Salary -->
+          <div class="job_open_content_type_two">
+            <h2>Job Salary</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+          <!-- Disability -->
+          <div class="job_open_content_type_two">
+            <h2>Disability</h2>
+            <select name="" id="" placeholder="">
+              <option>Example, Product Manager</option>
+            </select>
+          </div>
+          <!-- Application Submission URL -->
+          <div class="job_open_content_type_one">
+            <h2>Application Submission URL</h2>
+            <input
+              type="text"
+              placeholder="Your name"
+              class="job_open_content"
+            />
           </div>
         </div>
-      </div>
+      </section>
+      <section class="job_open_company_info">
+        <h1 class="job_open_section_title">Company Information</h1>
+        <div class="job_open_section_main_table">
+          <!--Company Name -->
+          <div class="job_open_content_type_two">
+            <h2>Company Name</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+          <!-- Website URL -->
+          <div class="job_open_content_type_two">
+            <h2>Website URL</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+          <!-- Company Size-->
+          <div class="job_open_content_type_two">
+            <h2>Company Size</h2>
+            <select name="" id="" placeholder="">
+              <option>Example, Product Manager</option>
+            </select>
+          </div>
+          <!-- Company Email -->
+          <div class="job_open_content_type_two">
+            <h2>Company Email</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+          <!-- Company Bio -->
+          <div class="job_open_content_type_one">
+            <h2>Company Bio</h2>
+            <textarea
+              placeholder="Your Location"
+              type="text"
+              style="height: 200px"
+            ></textarea>
+          </div>
+          <!-- Company Logo URL -->
+          <div class="job_open_content_type_two">
+            <h2>Company Logo URL</h2>
+            <input placeholder="Your Location" type="text" />
+          </div>
+        </div>
+      </section>
+      <section class="job_open_job_des">
+        <h1 class="job_open_section_title">Job Description</h1>
+        <!-- Responsibilities -->
+        <div class="job_open_content_type_one">
+          <h2>Responsibilities</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!-- Required Skills and Experience -->
+        <div class="job_open_content_type_one">
+          <h2>Required Skills and Experience</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!-- About Job Role-->
+        <div class="job_open_content_type_one">
+          <h2>About Job Role</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!--Ideal Candidate-->
+        <div class="job_open_content_type_one">
+          <h2>Ideal Candidate</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!--Perks and Benifits-->
+        <div class="job_open_content_type_one">
+          <h2>Perks and Benifits</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!--Hiring Process/Stages-->
+        <div class="job_open_content_type_one">
+          <h2>Hiring Process/Stages</h2>
+          <textarea placeholder="Your Location" type="text"></textarea>
+        </div>
+        <!--Hiring Process/Stages-->
+        <div class="job_open_content_type_button">
+          <!--  -->
+          <button class="job_open_content_submit_btn" type="button">
+            Submit
+          </button>
+        </div>
+      </section>
     </div>
   </body>
 </html>
